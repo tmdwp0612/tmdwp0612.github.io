@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: "https://tmdwp0612.github.io"
   - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+    url: /about/
   - title: "Category"
     url: /categories/
 
