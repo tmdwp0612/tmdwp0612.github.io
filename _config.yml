@@ -119,18 +119,15 @@ author:
   location         : "Seoul,Korea"
   email            :
   links:
-    - label: "Email"
-      icon: "assets/images/gmail-icon.png"
-      url: "seungje0612@gmail.com"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fa-brands fa-github"
       url: "https://github.com/tmdwp0612"
     - label: "Youtube"
-      icon: "assets/images/youtube-icon.png"
+      icon: "fa-brands fa-youtube"
       url: "https://www.youtube.com/@seungje_"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+    - label: "Linkedin"
+      icon: "fa-brands fa-linkedin"
+      url: "https://www.linkedin.com/in/%EC%8A%B9%EC%A0%9C-%EC%A0%95-53a738295/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -275,16 +272,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
