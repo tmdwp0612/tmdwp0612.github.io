@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "정승제"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "안녕하세요 정승제입니다"
+  bio              : "Hello World!"
   location         : "Seoul,Korea"
   email            :
   links:
@@ -307,3 +307,5 @@ defaults:
       related: true
       show_date: true
       date_format: "%Y-%m-%d"
+      toc : true
+      toc_sticky : true
